@@ -168,7 +168,7 @@ class _FluidSliderState extends State<FluidSlider>
     thumbDiameter = widget.thumbDiameter ?? 60.0;
     _animationController = AnimationController(
       duration: Duration(milliseconds: 400),
-      vsync: null,
+      vsync: this,
     );
 
     _thumbAnimation = CurvedAnimation(
