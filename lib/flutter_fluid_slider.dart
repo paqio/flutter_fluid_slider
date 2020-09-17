@@ -353,7 +353,7 @@ class _FluidSliderState extends State<FluidSlider>
             ),
           ),
           child: Stack(
-            overflow: Overflow.visible,
+           
             children: <Widget>[
               _MinMaxLabels(
                 textStyle: widget.labelsTextStyle,
